@@ -1,0 +1,22 @@
+﻿  GameState.cpp
+C:\Users\Собака-Барабака\source\Примеры программ на C++\PerfectGame\GameState\GameState.cpp(52,40): warning C4267: =: преобразование из "size_t" в "char"; возможна потеря данных
+  UdpSocket.cpp
+C:\Users\Собака-Барабака\source\Примеры программ на C++\PerfectGame\PerfectGameClient\UdpSocket.cpp(16,23): warning C4244: =: преобразование "SOCKET" в "int", возможна потеря данных
+C:\Users\Собака-Барабака\source\Примеры программ на C++\PerfectGame\PerfectGameClient\UdpSocket.cpp(36,62): error C2664: "INT InetPtonW(INT,PCWSTR,PVOID)": невозможно преобразовать аргумент 2 из "const _Elem *" в "PCWSTR"
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\Собака-Барабака\source\Примеры программ на C++\PerfectGame\PerfectGameClient\UdpSocket.cpp(36,36): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\ws2tcpip.h(583,1): message : см. объявление "InetPtonW"
+C:\Users\Собака-Барабака\source\Примеры программ на C++\PerfectGame\PerfectGameClient\UdpSocket.cpp(68,5): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Собака-Барабака\source\Примеры программ на C++\PerfectGame\PerfectGameClient\UdpSocket.cpp(75,5): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Собака-Барабака\source\Примеры программ на C++\PerfectGame\PerfectGameClient\UdpSocket.cpp(86,5): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  main.cpp
+C:\Users\Собака-Барабака\source\Примеры программ на C++\PerfectGame\GameManager\main.cpp(36,19): warning C4244: return: преобразование "_Rep" в "unsigned long", возможна потеря данных
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(3415,1): warning C4267: аргумент: преобразование из "size_t" в "u_short"; возможна потеря данных
+C:\Users\Собака-Барабака\source\Примеры программ на C++\PerfectGame\GameManager\main.cpp(50): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::unique_ptr<UdpSocket,std::default_delete<UdpSocket>> std::make_unique<UdpSocket,const size_t&,0>(const size_t &)"
